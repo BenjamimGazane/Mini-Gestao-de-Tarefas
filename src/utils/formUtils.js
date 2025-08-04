@@ -1,7 +1,7 @@
 import Criar from "../pages/criar"
 import axios from "axios"
 
-const API = "http://localhost:3000/tarefa";
+const API = "https://api-tarefas-o5fd.onrender.com/tarefa";
 
 export function getinput(e,objeto,setobjeto){
     setobjeto({...objeto,[e.target.id]: e.target.value})
